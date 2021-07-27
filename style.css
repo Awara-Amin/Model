@@ -1,0 +1,88 @@
+body{
+margin: 0
+}
+
+.all{
+  background-image: url("hero.jpeg");
+  background-repeat: no-repeat, repeat;
+  background-size: cover;
+  background-position: center center;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+
+}
+
+.middleBanar{
+background-color: white;
+margin: 0 auto;
+width: 40%;
+padding: 10px;
+position: absolute;
+top: 35%;
+left: 30%;
+text-align: center;
+height: 20%;
+border-radius: 10%;
+border: 1px solid;
+}
+
+button{
+  padding: 10px 20px;
+  background-color: green;
+  cursor: pointer;
+}
+.top{
+  /* display: none; */
+  background-color: white;
+
+  margin: 0 auto;
+  width: 40%;
+  padding: 10px;
+  position: absolute;
+  top: 35%;
+  left: 30%;
+  text-align: center;
+  height: 20%;
+  border-radius: 10%;
+  border: 1px solid;
+   z-index: 10;
+  display:fixed;
+}
+
+.color-overlay {
+  width: 100vw;
+  height: 100vh;
+   position: absolute;
+   top: 0;
+   left: 0;
+   background-color: blue;
+   opacity: 0.8;
+   z-index: -1;
+}
+
+.middleBanarTop{
+background-color: green;
+margin: 0 auto;
+width: 40%;
+padding: 10px;
+position: absolute;
+  top: 35%;
+  left: 30%;
+text-align: center;
+height: 20%;
+border-radius: 10%;
+border: 1px solid;
+
+}
+
+.fas{
+  position: absolute;
+  right: 30px;
+  top:20px
+}
+
+.hide{
+  display: none;
+
+}

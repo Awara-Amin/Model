@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" />
+  <title>Model Design</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="all">
+  <div class="middleBanar">
+    <div class="conteny">
+      <h1>Model Project</h1>
+      <button class="btn">Open Model</button>
+    </div>
+  </div>
+  <div class="conteny top hide">
+    <h1>Model Content</h1>
+    <i class="fas fa-times"></i>
+  </div>
+  </div>
+  <script src="index.js"></script>
+</body>
+
+</html>
